@@ -517,6 +517,83 @@ img {
 /* CORE - TRANSITION
 /*
 /* =======================================*/
+/* =======================================*/
+/*
+/* CORE - TYPOGRAPHY
+/*
+/* =======================================*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #595959;
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+  margin: 0 0 10px 0;
+}
+h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 21px;
+}
+
+h3 {
+  font-size: 16.38px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 11.62px;
+}
+
+h6 {
+  font-size: 9.38px;
+}
+
+p {
+  line-height: 1.6;
+  margin: 0 0 10px 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+blockquote {
+  margin: 10px 20px;
+}
+
+hr {
+  height: 0;
+  border: 1px solid #e2e2e2;
+  border-width: 0 0 1px 0;
+  margin: 20px auto;
+}
+hr.dashed {
+  border-style: dashed;
+}
+
 body {
   max-width: 1200px;
   margin: auto;

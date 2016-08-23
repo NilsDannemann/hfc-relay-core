@@ -112,8 +112,8 @@ $use-elementqueries: false !default;
 /* =======================================*/
 /* Families
 /* =======================================*/
-@import url(https://fonts.googleapis.com/css?family=Raleway:500,600,400);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+// @import url(https://fonts.googleapis.com/css?family=Raleway:500,600,400);
+// @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
 $font-family-headline : 'Raleway', sans-serif !default;
 $font-family-text     : 'Roboto', sans-serif !default;
 $font-family          : $font-family-text !default;
@@ -159,9 +159,15 @@ $use-ionicons: true !default;
 $use-linearicons: true !default;
 
 /* =======================================*/
-/* Border
+/* Borders
 /* =======================================*/
-$border: 1px solid darken($color-grey, 5%) !default;
+$border-xs     : 1px solid darken($color-grey, 5%) !default;
+$border-s      : 3px solid darken($color-grey, 5%) !default;
+$border-m      : 5px solid darken($color-grey, 5%) !default;
+$border-l      : 10px solid darken($color-grey, 5%) !default;
+$border-xl     : 15px solid darken($color-grey, 5%) !default;
+$border-xxl    : 20px solid darken($color-grey, 5%) !default;
+$border        : $border-xs !default;
 
 /* =======================================*/
 /* Radius
@@ -175,7 +181,7 @@ $border-radius-xxl : 12px !default;
 $border-radius     : $border-radius-s !default;
 
 /* =======================================*/
-/* Shadow
+/* Shadows
 /* =======================================*/
 $box-shadow-xs     : 0px 1px 3px rgba(0, 0, 0, 0.2) !default;
 $box-shadow-s      : 0px 2px 5px rgba(0, 0, 0, 0.2) !default;
@@ -186,7 +192,7 @@ $box-shadow-xxl    : 0px 32px 64px rgba(0, 0, 0, 0.2) !default;
 $box-shadow        : $box-shadow-s !default;
 
 /* =======================================*/
-/* Transition
+/* Transitions
 /* =======================================*/
 $transition-type-sine  : ease-out-sine !default;
 $transition-type-quad  : ease-out-quad !default;

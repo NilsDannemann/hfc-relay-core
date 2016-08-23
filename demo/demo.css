@@ -499,6 +499,9 @@ textarea {
 /* CORE - RESET
 /*
 /* =======================================*/
+/*
+  Description & Documentation here
+*/
 html {
   box-sizing: border-box;
 }
@@ -517,11 +520,17 @@ img {
 /* CORE - TRANSITION
 /*
 /* =======================================*/
+/*
+  Description & Documentation here
+*/
 /* =======================================*/
 /*
 /* CORE - TYPOGRAPHY
 /*
 /* =======================================*/
+/*
+  Description & Documentation here
+*/
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;

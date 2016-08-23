@@ -3,6 +3,11 @@
 /* CORE - TRANSITION
 /*
 /* =======================================*/
+
+/*
+  Description & Documentation here
+*/
+
 @mixin transition($property: all, $duration: $transition-duration, $type: $transition-type) {
 
   @if $type == ease-in-sine {

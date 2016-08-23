@@ -1,6 +1,6 @@
 {
   "name": "hfc-relay-core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "HFC Relay Core (SCSS)",
   "main": "index.js",
   "authors": [

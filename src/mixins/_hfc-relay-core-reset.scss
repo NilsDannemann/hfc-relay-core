@@ -1,26 +1,14 @@
 /* =======================================*/
 /*
-/* CORE BASE - RESET
+/* CORE - RESET
 /*
 /* =======================================*/
 
 html {
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -ms-box-sizing:border-box;
   box-sizing:border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
-}
-
-html, body {
-  width: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }
 
 img {

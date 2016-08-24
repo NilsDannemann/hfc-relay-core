@@ -66,7 +66,7 @@ $color-text             : lighten($color-black, 15%) !default;
 /* Spacing
 /* =======================================*/
 $whitespace: 20px !default;
-$width-sidebar: 300px !default;
+$width-sidebar: 325px !default;
 
 /* =======================================*/
 /* Breakpoints
@@ -216,6 +216,6 @@ $global-overlay-icon                : 'fa-caret-right' !default;
 $global-overlay-icon-color          : #fff !default;
 $global-overlay-icon-width          : ($whitespace*3) !default;
 $global-overlay-icon-height         : ($whitespace*3) !default;
-$global-overlay-icon-font-size      : $font-size-m !default;
+$global-overlay-icon-size           : $font-size-m !default;
 $global-overlay-icon-border         : 2px solid $global-overlay-icon-color !default;
 $global-overlay-icon-border-radius  : 100% !default;

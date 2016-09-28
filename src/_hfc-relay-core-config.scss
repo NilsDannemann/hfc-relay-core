@@ -113,6 +113,12 @@ $use-elementqueries: false !default;
 /* =======================================*/
 /* Families
 /* =======================================*/
+
+/*
+BETTER WAY:
+https://github.com/Semantic-Org/Semantic-UI/blob/master/src/themes/default/globals/site.variables
+*/
+
 // @import url(https://fonts.googleapis.com/css?family=Raleway:500,600,400);
 // @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
 $font-family-headline : 'Raleway', sans-serif !default;

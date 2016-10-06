@@ -121,9 +121,11 @@ https://github.com/Semantic-Org/Semantic-UI/blob/master/src/themes/default/globa
 
 // @import url(https://fonts.googleapis.com/css?family=Raleway:500,600,400);
 // @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
-$font-family-headline : 'Raleway', sans-serif !default;
-$font-family-text     : 'Roboto', sans-serif !default;
-$font-family          : $font-family-text !default;
+$font-family-headline         : 'Raleway', sans-serif !default;
+$font-family-headline-weight  : 600 !default;
+$font-family-text             : 'Roboto', sans-serif !default;
+$font-family-text-weight      : 400 !default;
+$font-family                  : $font-family-text !default;
 
 /* =======================================*/
 /* Sizes

@@ -10,6 +10,7 @@
 
 body {
   font-family: $font-family-text;
+  font-weight: $font-family-text-weight;
   font-size: $font-size;
   color: $color-text;
 }
@@ -22,6 +23,7 @@ ul, ol {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headline;
+  font-weight: $font-family-headline-weight;
   color: $color-headline;
   margin: 0 0 ($whitespace*0.5) 0;
 

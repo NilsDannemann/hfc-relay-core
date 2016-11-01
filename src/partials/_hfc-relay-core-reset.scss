@@ -20,6 +20,6 @@ img {
   max-width: 100%;
 }
 
-iframe:not([href*="youtube"]) {
+iframe:not([src*="youtube"]) {
 	width: 100%;
 }
